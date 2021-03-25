@@ -1,7 +1,13 @@
 import java.util.*;
 
 class LinkedListBasic{
+
+    public static int b = 0;
+
     public static void main(String[] args){
+
+        printVal(4);
+
         MyLinkedList ll = new MyLinkedList();
         // ll.addAtHead(7);
         // ll.addAtHead(2);
@@ -22,4 +28,9 @@ class LinkedListBasic{
         ll.deleteAtIndex(0);
         System.out.println("Value at index 1 is: " + ll.get(0) + "\n");
     }
+
+    public static void printVal(int a){
+        System.out.println(b);
+    }
+
 }

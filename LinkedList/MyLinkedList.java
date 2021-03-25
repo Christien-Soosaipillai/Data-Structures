@@ -1,6 +1,4 @@
-package com.christien.coredatastructures;
-
-class MyLinkedList {
+class MyLinkedList{
 
     public Node head;
 
@@ -90,6 +88,23 @@ class MyLinkedList {
         }
         // print();
 
+    }
+
+    public boolean hasCycle(Node start) {
+        //if Node is null
+        if(start == null ){
+            return false;
+        }
+        Node a = start;  //slow
+        Node b = start;  //fast
+        while(b.next != null && b.next.next != null){   //check 2 nodes ahead for the fast node each time
+            a=a.next;           //set slow node pace
+            b=b.next.next;      //set fast node pace
+            if(a==b){           //if values are equal then we have a cycle
+                return true;
+            }
+        } 
+        return false;           //exists meaning end of list so no cycle
     }
 
     // public void print(){
