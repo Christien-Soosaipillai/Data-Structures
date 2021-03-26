@@ -1,4 +1,5 @@
 # Data-Structures :sun_with_face: :new_moon_with_face:                                      
+#### This Repository is used to help with the understanding of data-structures and there relation to time complexities
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;Data structures are a data organization, management and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. Whenever data exists it must have some kind of data structure in order to be stored in a computer.
 
@@ -21,8 +22,8 @@
 
 ## Asymptotic Notations
 
-### Big-O Notation
-> &nbsp;&nbsp;&nbsp;&nbsp;Big-O notation represent the upper bound running time complexity of an algorithm. It specifically describes the worst case scenario for time complexity and memory consumption. The mathematical desciprtion is as follows
+### Big-O(Oh) Notation
+> &nbsp;&nbsp;&nbsp;&nbsp;Big-O notation represent the upper bound running time complexity of an algorithm. It specifically describes the worst case scenario for time complexity and memory consumption. The mathematical desciprtion is as follows:
 ```
 Mathematical Description: 
 let n = number of steps and c = some constant value   
@@ -30,7 +31,31 @@ f(n) = O(g(n))
 IFF  
 f(n) <= c*g(n) where n > n0, c > 0, n0 > 1
 ```
-![Big-O Notation](https://github.com/Christien-Soosaipillai/Data-Structures/blob/main/images/bigO.png)
+![Big-O(Oh) Notation](https://github.com/Christien-Soosaipillai/Data-Structures/blob/main/images/bigO.png)
+
+### Big-Ω(0mega) Notation
+> &nbsp;&nbsp;&nbsp;&nbsp;Big-Ω notation represents the lower bound running time complexity of an algorithm. It specifically describes the best case scenario for the time complexity and memory consumption. The mathematical description is as follows:
+```
+Mathematical Description: 
+let n = number of steps and c = some constant value   
+f(n) = Ω(g(n))
+IFF  
+f(n) >= c*g(n) where n > n0, c > 0, n0 > 1
+```
+![Big-Ω(0mega)](https://github.com/Christien-Soosaipillai/Data-Structures/blob/main/images/omega-notation.png)
+
+### Big-Θ(Theta) Notation
+> &nbsp;&nbsp;&nbsp;&nbsp;Big-Θ(Theta) notation bounds a function from above and below, so it defines exact asymptotic behavior. It specifically describes the average case scenario for the time complexity and memory consumption. The mathematical description is as follows:
+```
+Mathematical Description: 
+let n = number of steps and c1,c2 = some constant values   
+f(n) = Ω(g(n))
+IFF  
+c1*g(n) >= f(n) >= c2*g(n) where n > n0, c1,c2 > 0, n0 > 1
+```
+![Big-Θ(Theta) Notation](https://github.com/Christien-Soosaipillai/Data-Structures/blob/main/images/Theta-Notation.png)
+
+
 <hr>
 
 ### References
