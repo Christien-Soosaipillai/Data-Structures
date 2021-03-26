@@ -19,13 +19,24 @@
     * insertions are simpler when compared to contiguous data structures such as arrays
     * linked structures dont need to know the size on initialization 
 
-## Big-O Notation
-#### &nbsp;&nbsp;&nbsp;&nbsp;Big-O notation is used in Computer Science to describe the performance or complexity of an algorithm. More precisely, it is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.. Big-O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm. The following links are what I personally used for reference on Big-O notation:
+## Asymptotic Notations
+
+### Big-O Notation
+> &nbsp;&nbsp;&nbsp;&nbsp;Big-O notation represent the upper bound running time complexity of an algorithm. It specifically describes the worst case scenario for time complexity and memory consumption. The mathematical desciprtion is as follows
+```
+Mathematical Description: 
+let n = number of steps and c = some constant value   
+f(n) = O(g(n))
+IFF  
+f(n) <= c*g(n) where n > n0, c > 0, n0 > 1
+```
+![Big-O Notation](/images/bigO.png)
 <hr>
 
 ### References
 * https://www.bigocheatsheet.com/
 * https://cooervo.github.io/Algorithms-DataStructures-BigONotation/data-structures.html
 * https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/
+* https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/
 
 
