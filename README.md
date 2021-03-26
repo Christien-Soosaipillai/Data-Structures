@@ -30,7 +30,7 @@ f(n) = O(g(n))
 IFF  
 f(n) <= c*g(n) where n > n0, c > 0, n0 > 1
 ```
-![Big-O Notation](/images/bigO.png)
+![Big-O Notation](https://github.com/Christien-Soosaipillai/Data-Structures/blob/main/images/bigO.png)
 <hr>
 
 ### References
