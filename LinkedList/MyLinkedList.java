@@ -1,4 +1,8 @@
-class MyLinkedList{
+package LinkedList;
+
+import LinkedList.Node; 
+
+public class MyLinkedList{
 
     public Node head;
 
@@ -116,15 +120,4 @@ class MyLinkedList{
     //     }
     //     System.out.print("null\n");
     // }
-
-    class Node{
-        public int val;
-        public Node next;
-
-        public Node(int val, Node node){
-            this.val = val;
-            this.next = node;
-        }
-
-    }
 }
