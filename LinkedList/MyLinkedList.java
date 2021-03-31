@@ -111,13 +111,13 @@ public class MyLinkedList{
         return false;           //exists meaning end of list so no cycle
     }
 
-    // public void print(){
-    //     Node n = head;
-    //     System.out.print("Current LinkedList: ");
-    //     while(n != null){
-    //         System.out.print("[" + n.val + "]->");
-    //         n = n.next;
-    //     }
-    //     System.out.print("null\n");
-    // }
+    public void print(){
+        Node n = head;
+        System.out.print("Current LinkedList: ");
+        while(n != null){
+            System.out.print("[" + n.val + "]->");
+            n = n.next;
+        }
+        System.out.print("null\n");
+    }
 }
