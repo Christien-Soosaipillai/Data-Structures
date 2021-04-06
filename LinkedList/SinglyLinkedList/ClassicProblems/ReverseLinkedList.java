@@ -1,4 +1,4 @@
-package LinkedList.ClassicProblems;
+package LinkedList.SinglyLinkedList.ClassicProblems;
 
 import LinkedList.*;
 

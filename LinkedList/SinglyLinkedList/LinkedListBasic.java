@@ -1,3 +1,5 @@
+package LinkedList.SinglyLinkedList;
+
 import java.util.*;
 
 class LinkedListBasic{

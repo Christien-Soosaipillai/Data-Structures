@@ -1,4 +1,4 @@
-package LinkedList.TwoPointerTechnique;
+package LinkedList.SinglyLinked.ListTwoPointerTechnique;
 
 import LinkedList.*;
 import java.util.*;
